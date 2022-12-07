@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.shop-name {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.list-of-navbar {
+    margin-left: 20px;
+}
+
+
+.navbar-boss {
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+    top: -1px;
+}
+
+
+
+@media screen and (max-width: 480px) {
+    .list-of-navbar {
+        margin-left: 10px;
+    }
+
+    .reg-log-card {
+        margin-top: 10px;
+    }
+
+    .navbar-boss {
+        position: absolute;
+    }
+
+}

@@ -1,0 +1,19 @@
+.products-boss-class {
+    margin-top: 140px;
+}
+
+@media screen and (max-width: 480px) {
+    .products-boss-class {
+    
+    }
+
+    .meta-desc-single-product {
+        margin-top: 40px;
+        padding-bottom: 60px;
+    }
+
+    .s-product-image {
+        width: 100%;
+    }
+
+}

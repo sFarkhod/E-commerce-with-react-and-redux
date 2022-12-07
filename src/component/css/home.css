@@ -1,0 +1,33 @@
+.bg-home-img {
+    margin-top: -10px;
+    max-height: 640px;
+    overflow-y: hidden;
+}
+
+
+.btn-group-bg {
+    display: flex;
+}
+
+
+@media screen and (max-width: 480px) {
+    .bg-home-img {
+        margin-top: 60px !important;
+    }
+
+    .sales-container {
+        margin-top: 90px;
+    }
+
+    .card-title {
+        font-size: 25px ;
+    }
+
+    .card-text {
+        font-size: 15px;
+    }
+
+    .btn-group-bg {
+        display: none;
+    }
+}

@@ -1,0 +1,31 @@
+.men-all-button {
+    height: 100px;
+}
+
+
+@media screen and (max-width: 480px) {
+    .product-boss-div {
+        margin-top: -5px;
+    }
+
+    .men-all-button {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }  
+    
+    .productName_andHr {
+        height: 100px;
+    }
+
+    .card-of-product {
+        width: 100%;
+        margin-inline: auto;
+    }
+
+    .card-product-single {
+        width: 480px;
+    }
+
+}
